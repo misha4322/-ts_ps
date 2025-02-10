@@ -12,7 +12,7 @@ const rootElement = document.getElementById('root');
 if (rootElement) {
   const root = createRoot(rootElement);
 
-  // Рендерим приложение
+
   root.render(
     <StrictMode>
       <Provider store={store}>

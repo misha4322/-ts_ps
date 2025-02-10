@@ -36,7 +36,6 @@ interface BuildConfig {
   motherboard: string;
 }
 
-// Тип для сборки
 interface Build {
   name: string;
   slogan?: string;

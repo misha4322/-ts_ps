@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import s from "./ProductBasket.module.css";
 import trash from "../../assets/icons8-мусорка-100 1.svg";
 import fractal from "../../assets/Fractal-Design.png";
-import componentsData from "../../components/ComponentsData"; // Убедитесь, что путь правильный
+import componentsData from "../../components/ComponentsData";
 import { nanoid } from "@reduxjs/toolkit";
 import { IMaskInput } from 'react-imask';
 
