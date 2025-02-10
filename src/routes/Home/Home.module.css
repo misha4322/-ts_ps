@@ -1,0 +1,285 @@
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slide {
+  margin: 165px 30px 0 0;
+  max-height: 697px;
+  background-color: black;
+  border-radius: 40px;
+}
+
+.containerSlide {
+  display: flex;
+  justify-content: space-between;
+  width: 1220px;
+  margin: 71px auto;
+}
+
+.textSlide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textSlide span {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgba(192, 255, 1, 1);
+}
+
+.slogab {
+  margin: 64px 0 118px;
+  font-size: 64px;
+  width: 607px;
+  font-weight: 400;
+}
+
+.imgSlide {
+  width: 564px;
+  height: 564px;
+}
+
+.btnSlide {
+  width: 446px;
+  height: 94px;
+  border: 2px solid rgba(192, 255, 1, 1);
+  border-radius: 40px;
+  color: rgba(192, 255, 1, 1);
+  font-size: 40px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+
+.contaner_info {
+  display: flex;
+  flex-direction: column;
+
+
+  justify-content: normal;
+
+  align-items: flex-start
+}
+
+
+
+.slogan_p {
+  font-size: 64px;
+  max-width: 607px;
+  text-align: left;
+
+}
+
+.build {
+  text-align: center;
+
+
+}
+
+.build_slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.build ul {
+  list-style: none;
+  padding: 0;
+}
+
+.build li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+
+
+.buyButton {
+  background-color: transparent;
+  width: 446px;
+  height: 94px;
+  padding: 10px 20px;
+  border: 2px solid #C0FF01;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #C0FF01;
+  font-size: 40px;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.priceCategoryh2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 64px;
+}
+
+.priceCategoryItem {
+  display: flex;
+}
+
+.componentItem {
+  width: 441px;
+}
+
+.containerText {
+  width: 404px;
+  margin: 15px auto;
+  font-size: 20px;
+}
+
+.line {
+  margin-top: 13px;
+  background-color: white;
+  width: 100%;
+  height: 1px;
+}
+
+.priceCategoryItem {
+  color: white;
+}
+
+.valuable_h4 {
+  font-size: 36px;
+  margin: 0;
+  padding-top: 15px;
+
+}
+
+.priceRange {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.priceCategoryItem {
+  background-color: black;
+  border-radius: 20px;
+}
+
+.proc .itemLabel {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 70px;
+  max-width: 1084px;
+
+  border-bottom: 2px solid white;
+  padding: 10px;
+  transition: none;
+  cursor: pointer;
+}
+
+.proc .itemLabel:first-child {
+  border-top: none;
+}
+
+.proc .itemLabel:last-child {
+  border-bottom: none;
+}
+
+.div_knopka {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 404px;
+  margin: 0 auto;
+}
+
+.btnBuy {
+  display: flex;
+  flex-direction: column;
+}
+
+.buyButton_categories {
+  width: 181px;
+  height: 45px;
+  border: 2px solid rgba(192, 255, 1, 1);
+  color: rgba(192, 255, 1, 1);
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: inherit;
+}
+
+.editButton {
+  margin: 9px 0 20px;
+  width: 181px;
+  height: 45px;
+  border: 2px solid rgba(121, 121, 121, 1);
+  color: rgba(121, 121, 121, 1);
+  font-size: 20px;
+  background-color: inherit;
+  border-radius: 20px;
+}
+
+.totalPrice {
+  display: flex;
+}
+
+.priceCategoryItem {
+  height: 1010px;
+}
+
+@media only screen and (max-width: 1265px) {
+  .priceRange{
+  
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .priceCategoryItem{
+    margin-bottom: 30px;
+  }
+  .slogab{
+
+    font-size: 30px;
+    margin: 0;
+    margin-top:10px ;
+    margin-bottom:10px ;
+  }
+  .btnSlide {
+    background-color: transparent;
+    max-width: 200x;
+   
+    height: 64px;
+    padding: 10px 20px;
+    border: 2px solid #C0FF01;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #C0FF01;
+   
+    font-size: 20px;
+  }
+  .containerSlide{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 760px;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .imgSlide {
+    width: 364px;
+    height: 364px;
+  }
+
+
+
+
+
+
+  
+}

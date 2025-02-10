@@ -1,0 +1,159 @@
+.orderButton:disabled {
+  cursor: not-allowed;
+  width: 348px;
+  height: 87px;
+  border: 2px solid rgb(51, 54, 42);
+  background-color: inherit;
+  border-radius: 20px;
+  color: rgb(51, 54, 42);
+  font-size: 40px;
+}
+
+.inputContainer input:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.basketContainer {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(51, 51, 51, 1);
+
+  display: flex;
+
+  align-content: space-around;
+
+  justify-content: space-around;
+
+}
+
+.div_basket {
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 35px;
+  max-width: 1477px;
+  height: 800px;
+  margin: 10vh;
+  display: flex;
+  align-items: center
+}
+
+.itogo {
+  color: white;
+  font-size: 36px;
+}
+
+.spisok {
+  list-style-type: none;
+  margin: 0;
+}
+
+.component {
+  padding: 10px;
+  position: relative;
+  font-size: 32px;
+  max-width: 622px;
+}
+
+.component:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 622px;
+}
+
+.trash_zero {
+  font-size: 64px;
+  width: 1400px;
+  text-align: center;
+}
+
+.tovar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputTel {
+  width: 442px;
+  height: 59px;
+  border: 3px solid rgba(255, 255, 255, 0.48);
+  background-color: inherit;
+  border-radius: 19px;
+  color: rgba(244, 244, 244, 0.76);
+  font-size: 24px;
+}
+
+.orderButton {
+  width: 348px;
+  height: 87px;
+  border: 2px solid rgba(192, 255, 1, 1);
+  background-color: inherit;
+  border-radius: 20px;
+  color: rgba(192, 255, 1, 1);
+  font-size: 40px;
+}
+
+.btnDelY {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.clearButton {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.orderSuccess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+
+
+}
+
+.f {
+  padding: 52px 100px;
+  background-color: black;
+  text-align: center;
+  width: 1000px;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+.closeButton {
+  width: 181px;
+  height: 61px;
+  background-color: inherit;
+  color: rgba(192, 255, 1, 1);
+  border: 2px solid rgba(192, 255, 1, 1);
+  border-radius: 20px;
+  font-size: 24px ;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1447px) {
+ .div_basket{
+  flex-direction: column;
+  height: 1600px;
+  margin: 0;
+  margin-top: 30px;
+  padding-bottom: 30px;
+ }
+ 
+ .f{
+  max-width: 450px;
+  width: 100%;
+  font-size: 15px;
+  
+ }
+} 

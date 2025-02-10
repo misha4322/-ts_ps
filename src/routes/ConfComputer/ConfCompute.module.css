@@ -1,0 +1,179 @@
+.conf_div {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(51, 51, 51, 1);
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+
+.proc {
+    margin-top: 5vh;
+    display: flex;
+    max-width: 1477px;
+    width: 100%;
+    align-items: stretch;
+    border-radius: 35px;
+    background-color: black;
+    
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.proc .itemLabel {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 70px;
+   
+   
+    border-bottom: 2px solid white;
+    padding: 10px;
+    transition: none;
+    cursor: pointer;
+}
+
+.proc .itemLabel:first-child {
+    border-top: none;
+}
+
+.proc .itemLabel:last-child {
+    border-bottom: none;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #BEBEBE;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]:checked {
+    border: 4px solid #1EFF00;
+    background-color: #1EFF00;
+
+}
+
+
+
+.itemText {
+    color: white;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+
+.itemLabel {
+    display: flex;
+}
+
+.totalPrice {
+    display: flex;
+     justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 20px;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    align-items: center
+}
+
+.basket {
+    width: 446px;
+    height: 94px;
+    color: rgba(192, 255, 1, 1);
+    border: 2px solid rgba(192, 255, 1, 1);
+    background-color: inherit;
+    border-radius: 40px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+.div_konfi{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.price_itog{
+    font-size: 36px;
+}
+.selectedComponents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.price2_2{
+    
+    font-size: 20px;
+    color: white;
+ 
+}
+.h3_set{
+    color: white;
+}
+.itemText{
+    font-size: 35px;
+    display: flex;
+}
+.div_konfigurati{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ 
+}
+.price_konf{
+    display: flex;
+    font-size: 32px;
+    color: rgba(105, 105, 105, 1);
+
+}
+.errorMessage {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1265px) {
+ .itemText{
+    font-size: 25PX;
+ }
+ .price_konf{
+    font-size: 25PX;
+ }
+ .price_itog{
+    font-size: 25px;
+ }
+
+ .basket{
+    max-width: 200px;
+    font-size: 25px;
+    border-radius: 30px;
+ }
+
+  }

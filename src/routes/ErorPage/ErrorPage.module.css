@@ -1,0 +1,32 @@
+h2{
+    color: white;
+}
+
+.h1_nan{
+    color: rgba(192, 255, 1, 1);
+    padding: 5vh;
+    font-size: 32px;
+}
+body{
+    
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Not_fount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.qus{
+    border: 1px;
+    border-color: wheat;
+    color: white;
+    font-size: 300px;
+}
